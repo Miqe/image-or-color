@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <script src="https://code.angularjs.org/1.0.7/angular.min.js"></script>
+  <script src="../image_or_color.js"></script>
+  <script>
+    angular.module('app',['image-or-color']).controller('dataController', ['$scope',
+      function($scope) {
+
+      }
+    ]);
+  </script>
+</head>
+
+<body data-ng-controller="dataController">
+<h1>Image or color example</h1>
+<h3>if image is found it will apply the image to dom element else it will fill it with color.</h3>
+
+  
+  <div class="image-or-color"  style="min-width: 300px; height:100px;" >
+    <h4>
+     &lt;div class="image-or-color"  style="min-width: 300px; height:100px;" &gt; &lt;/div&gt;
+    </h4>
+  </div>
+  <div class="image-or-color" color="black" style="min-width: 300px; height:300px;"  img="https://s18.postimg.org/67va4q0u1/congruent_pentagon.png"> 
+    <h4>
+     &lt;div class="image-or-color" color="black" img="https://s18.postimg.org/67va4q0u1/congruent_pentagon.png" style="min-width: 300px; height:100px;" &gt; &lt;/div&gt;
+    </h4>
+  </div> 
+  <div class="image-or-color" color="red" style="min-width: 300px; height:100px;" > 
+    <h4>
+     &lt;div class="image-or-color" color="red"  style="min-width: 300px; height:100px;" &gt; &lt;/div&gt;
+    </h34>
+  </div>
+</body>
+
+</html>

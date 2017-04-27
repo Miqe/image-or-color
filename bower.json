@@ -1,0 +1,23 @@
+{
+  "name": "image-or-color",
+  "description": "
+if image is found it will apply the image to dom element else it will fill it with color.",
+  "main": "image_or_color.js",
+  "authors": [
+    "mike <michaelsahlu@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "image",
+    "angularjs",
+    "color"
+  ],
+  "homepage": "https://github.com/Miqe/image-or-color",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

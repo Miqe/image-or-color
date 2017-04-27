@@ -1,0 +1,26 @@
+{
+  "name": "image-or-color",
+  "version": "0.0.1",
+  "description": "if image is found it will apply the image to dom element else it will fill it with color.",
+  "main": "image_or_color.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miqe/image-or-color.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miqe/image-or-color/issues"
+  },
+  "homepage": "https://github.com/Miqe/image-or-color#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1"
+  }
+}
