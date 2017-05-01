@@ -1,7 +1,6 @@
 {
   "name": "image-or-color",
-  "description": "
-if image is found it will apply the image to dom element else it will fill it with color.",
+  "description": "if image is found it will apply the image to dom element else it will fill it with color.",
   "main": "image_or_color.js",
   "authors": [
     "mike <michaelsahlu@gmail.com>"
